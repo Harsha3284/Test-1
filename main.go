@@ -105,7 +105,7 @@ func main() {
 
 	resumeText, err := extractTextFromDocx(resumePath)
 	if err != nil {
-		log.Fatalf("Error reading resume: %v", err)
+		log.Fatalf("Error reading resume: %v  ghgvgcfgxdsaesdfhgmcfgdt", err)
 	}
 
 	// Preprocess the text (convert to lowercase and tokenize)
